@@ -196,12 +196,8 @@ export default function ContactPage() {
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 md:p-12">
             <form
               className="flex flex-col gap-6"
-              name="contact"
-              method="POST"
-              data-netlify="true"
               onSubmit={(e) => e.preventDefault()}
             >
-              <input type="hidden" name="form-name" value="contact" />
               {/* Row 1: Name + Business */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col gap-2">
