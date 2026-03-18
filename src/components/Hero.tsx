@@ -31,7 +31,7 @@ function TextGenerate({ text, className }: { text: string; className?: string })
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 md:pt-20">
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/4 left-1/4 w-[40vw] h-[40vw] bg-brand-cyan/10 rounded-full blur-[120px] mix-blend-screen animate-pulse delay-75"></div>
         <div className="absolute bottom-1/4 right-1/4 w-[40vw] h-[40vw] bg-brand-purple/10 rounded-full blur-[120px] mix-blend-screen animate-pulse"></div>
