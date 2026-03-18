@@ -40,9 +40,15 @@ export default function BleedingCash() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
         >
-          <TextGenerate text="Stop Bleeding Cash " />
+          <TextGenerate text="Stop Bleeding " />
+          <br className="block md:hidden" />
+          <TextGenerate text="Cash" />
           <br className="hidden md:block" />
-          <TextGenerate text="on Missed Connections." className="text-zinc-600" />
+          <TextGenerate text="on " className="text-zinc-600" />
+          <br className="block md:hidden" />
+          <TextGenerate text="Missed " className="text-zinc-600" />
+          <br className="block md:hidden" />
+          <TextGenerate text="Connections." className="text-zinc-600" />
         </motion.h2>
 
         {/* Paragraph — simple opacity fade after headline settles */}

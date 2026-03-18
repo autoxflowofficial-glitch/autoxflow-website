@@ -55,8 +55,10 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
         >
-          <TextGenerate text="Scale Your Business " />
-          <br className="hidden md:block" />
+          <TextGenerate text="Scale Your " />
+          <br className="block md:hidden" />
+          <TextGenerate text="Business " />
+          <br className="block md:hidden" />
           <span className="text-transparent bg-clip-text bg-linear-to-r from-brand-cyan to-brand-purple" style={{ display: "inline-block" }}>
             <TextGenerate text="on Autopilot." />
           </span>
