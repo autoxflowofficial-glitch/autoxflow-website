@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
   title: "Auto X Flow | AI Automation Agency",
   description:
     "We build autonomous AI systems that capture leads, answer FAQs 24/7, and book appointments—so you can focus on scaling.",
+  icons: { icon: '/favicon-v2.ico' },
 };
 
 export default function RootLayout({
